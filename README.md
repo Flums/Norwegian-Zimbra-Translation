@@ -1,3 +1,5 @@
 # Norwegian Zimbra Translation
 
-Norwegian translation of Zimbra maintained by the community.
+Sponsored by Telsys AS http://www.telsys.no
+
+Norwegian translation of Zimbra.
