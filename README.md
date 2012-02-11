@@ -33,3 +33,9 @@ zmmailboxdctl restart
 ```
 
 This last command will cause downtime to HTTP/Zimbra GUI for a short period of time.
+
+
+Abount ASCII codes:
+æ = 
+ø = \u00f8
+å = \u00e5
