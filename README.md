@@ -11,7 +11,7 @@ Run the following commands to install Norwegian language to your Zimbra installa
 ```shell
 cd /opt/zimbra/jetty/webapps/zimbra/WEB-INF/classes/messages/
 
-rm -rf *_no.properties*
+rm -rf /opt/zimbra/jetty/webapps/zimbra/WEB-INF/classes/messages/*_no.properties*
 
 wget https://raw.github.com/Flums/Norwegian-Zimbra-Translation/master/messages/AjxMsg_no.properties
 wget https://raw.github.com/Flums/Norwegian-Zimbra-Translation/master/messages/I18nMsg_no.properties
