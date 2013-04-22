@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# kjapp kommentar
+
 VERSION=$(sudo -u zimbra /opt/zimbra/bin/zmcontrol -v| awk '{ print $2 }' | awk -F. '{ print $1 }')
 
 cd /opt/zimbra/jetty/webapps/zimbra/WEB-INF/classes/messages/
