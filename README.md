@@ -26,3 +26,5 @@ Abount ASCII codes:
 ø = \u00f8
 
 å = \u00e5
+
+convenient options for sed: -e 's/æ/\\u00e6/g' -e 's/ø/\\u00f8/g' -e 's/å/\\u00e5/g' -e 's/Æ/\\u00C6/g' -e 's/Ø/\\u00D8/g' -e 's/Å/\\u00C5/g'
