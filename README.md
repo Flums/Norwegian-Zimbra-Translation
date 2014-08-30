@@ -29,8 +29,11 @@ Abount ASCII codes:
 
 ... or just be lazy, type æøå as normal, and do this afterwards:
 
-sed -i -e 's/æ/\\u00e6/g' -e 's/ø/\\u00f8/g' -e 's/å/\\u00e5/g' -e 's/Æ/\\u00C6/g' -e 's/Ø/\\u00D8/g' -e 's/Å/\\u00C5/g' -e 's/é/\\u00E9/g' <FILENAME>
+Linux:
+```sed -i -e 's/æ/\\u00e6/g' -e 's/ø/\\u00f8/g' -e 's/å/\\u00e5/g' -e 's/Æ/\\u00C6/g' -e 's/Ø/\\u00D8/g' -e 's/Å/\\u00C5/g' -e 's/é/\\u00E9/g' <FILENAME>
 
+OS X:
+```sed -i '' -e 's/æ/\u00e6/g' -e 's/ø/\u00f8/g' -e 's/å/\u00e5/g' -e 's/Æ/\u00C6/g' -e 's/Ø/\u00D8/g' -e 's/Å/\u00C5/g' -e 's/é/\u00E9/g' <FILENAME> 
 to look for them: use this:
 
 egrep -ir "ø|æ|å" *
