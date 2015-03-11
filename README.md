@@ -7,7 +7,7 @@ Installation:
 Run the following commands to install Norwegian language to your Zimbra installation:
 
 ```shell
- curl https://raw.github.com/Flums/Norwegian-Zimbra-Translation/master/install.sh | sh
+ curl https://raw.githubusercontent.com/Flums/Norwegian-Zimbra-Translation/master/install.sh | sh
 ```
 
 and last:
