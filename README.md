@@ -1,6 +1,6 @@
 # Norwegian Zimbra Translation
 
-Norwegian translation of Zimbra.
+Norwegian translation of Zimbra, maintained by Philip Gabrielsen @ Redpill Linpro AS
 
 Installation:
 
