@@ -10,8 +10,8 @@ wget -N https://raw.githubusercontent.com/Flums/Norwegian-Zimbra-Translation/mas
 wget -N https://raw.githubusercontent.com/Flums/Norwegian-Zimbra-Translation/master/zimbra$VERSION/messages/ZbMsg_no.properties
 wget -N https://raw.githubusercontent.com/Flums/Norwegian-Zimbra-Translation/master/zimbra$VERSION/messages/ZhMsg_no.properties
 wget -N https://raw.githubusercontent.com/Flums/Norwegian-Zimbra-Translation/master/zimbra$VERSION/messages/ZmMsg_no.properties
+wget -N https://raw.githubusercontent.com/Flums/Norwegian-Zimbra-Translation/master/zimbra$VERSION/messages/ZtMsg_no.properties
 wget -N https://raw.githubusercontent.com/Flums/Norwegian-Zimbra-Translation/master/zimbra$VERSION/messages/ZmSMS_no.properties
-wget -N https://raw.githubusercontent.com/Flums/Norwegian-Zimbra-Translation/master/zimbra$VERSION/messages/ZtSMS_no.properties
 
 chown zimbra: *
 
