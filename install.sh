@@ -15,6 +15,11 @@ wget -N https://raw.githubusercontent.com/Flums/Norwegian-Zimbra-Translation/mas
 
 chown zimbra: *
 
+cd /opt/zimbra/jetty/webapps/zimbraAdmin/WEB-INF/classes/messages/
+wget -N https://raw.githubusercontent.com/Flums/Norwegian-Zimbra-Translation/master/zimbra$VERSION/messages/ZaMsg_no.properties
+
+chown zimbra: *
+
 cd /opt/zimbra/jetty/webapps/zimbra/WEB-INF/classes/keys/
 wget -N https://raw.githubusercontent.com/Flums/Norwegian-Zimbra-Translation/master/zimbra$VERSION/keys/AjxKeys_no.properties
 wget -N https://raw.githubusercontent.com/Flums/Norwegian-Zimbra-Translation/master/zimbra$VERSION/keys/ZhKeys_no.properties
