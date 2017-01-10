@@ -43,3 +43,5 @@ wget -Nnv https://raw.githubusercontent.com/Flums/Norwegian-Zimbra-Translation/m
 wget -Nnv https://raw.githubusercontent.com/Flums/Norwegian-Zimbra-Translation/master/zimbra$VERSION/keys/ZmKeys_no.properties
 
 chown zimbra: *
+
+sudo -u zimbra /opt/zimbra/bin/zmprov fc server
