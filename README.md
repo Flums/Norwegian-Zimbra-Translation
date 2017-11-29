@@ -1,5 +1,7 @@
 # Norwegian Zimbra Translation
 
+NOTICE: I will probably stop maintaining this, since Zimbra finally included my translation in Zimbra, and made some major improvements. <a href="https://github.com/Zimbra/zm-web-client">See Zimbra:zm-web-client@Github</a>.
+
 Norwegian translation of Zimbra, maintained by <a href="http://philipgabrielsen.no">Philip Gabrielsen</a> @ <a href="https://redpill-linpro.com/">Redpill Linpro AS</a>
 
 Installation:
